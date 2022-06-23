@@ -53,4 +53,31 @@ a {
   text-decoration: none;
   color: #e7e7e7;
 }
+@media screen and (max-width: 600px) {
+  .rooms {
+    flex-direction: column !important;
+    margin: 20px auto;
+  }
+
+  .room {
+    margin: 10px auto !important;
+  }
+  .reservation-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    width: 100px;
+    margin: 30px;
+    height: 463px;
+    padding: 15px 75px 35px;
+  }
+
+  .resback {
+    display: flex;
+    justify-content: center;
+  }
+}
 </style>

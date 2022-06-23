@@ -29,4 +29,31 @@ export default {
   color: white;
   margin: 0 0 0 0;
 }
+@media screen and (max-width: 600px) {
+  .rooms {
+    flex-direction: column !important;
+    margin: 20px auto !important;
+  }
+
+  .room {
+    margin: 10px auto !important;
+  }
+  .reservation-form {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    flex-wrap: wrap !important;
+    align-content: center !important;
+    flex-direction: row !important;
+    width: 100px !important;
+    margin: 30px !important;
+    height: 463px !important;
+    padding: 15px 75px 35px !important;
+  }
+
+  .resback {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
 </style>
