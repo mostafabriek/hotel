@@ -1,14 +1,21 @@
 <template>
   <div class="navbar">
-    <nav>
-      <router-link to="/" class="logodiv">
-        <img class="logo" alt="Vue logo" src="../assets/logo.png" />
-        <p>Hotel</p>
-      </router-link>
-      <router-link to="/rooms">Rooms</router-link>
-      <router-link to="/about">About</router-link>
-      <router-link to="/contact">Contact</router-link>
-    </nav>
+    <div class="navbarp">
+      <nav>
+        <router-link to="/" class="logodiv">
+          <img class="logo" alt="Vue logo" src="../assets/logo.png" />
+          <p>Hotel</p>
+        </router-link>
+        <router-link to="/rooms">Rooms</router-link>
+        <router-link to="/about">About</router-link>
+        <router-link to="/contact">Contact</router-link>
+      </nav>
+      <div class="github">
+        <a href="https://github.com/mostafabriek/hotel/releases/tag/v1.0"
+          ><img src="../assets/github_PNG15.png" alt="github"
+        /></a>
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -18,6 +25,20 @@ export default {
 };
 </script>
 <style>
+.navbar .github img {
+  width: 80px;
+}
+.github img {
+  width: 100px;
+}
+.navbarp {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
 .logodiv {
   display: flex;
   align-content: center;
@@ -52,7 +73,7 @@ nav {
   flex-wrap: nowrap;
   justify-content: center; */
   display: flex;
-  width: 90%;
+  width: 100%;
   align-content: center;
   flex-direction: row;
   align-items: center;

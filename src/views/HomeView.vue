@@ -5,6 +5,7 @@
     <Recervition-template></Recervition-template>
     <rooms-template></rooms-template>
     <about-template></about-template>
+    <hotelpro-ver></hotelpro-ver>
     <Contact-View></Contact-View>
   </div>
 </template>
@@ -14,6 +15,7 @@ import RecervitionTemplate from "@/components/Recervition.vue";
 import RoomsTemplate from "@/components/Rooms.vue";
 import AboutTemplate from "@/views/AboutView.vue";
 import ContactView from "@/views/contactVue.vue";
+import HotelproVer from "@/views/mhotel.vue";
 
 export default {
   name: "HomeView",
@@ -22,6 +24,7 @@ export default {
     RoomsTemplate,
     AboutTemplate,
     ContactView,
+    HotelproVer,
   },
 };
 </script>
