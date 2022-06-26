@@ -33,17 +33,17 @@
       <div class="version">
         <div class="vname">V2.0</div>
         <div class="name">Hotel Template Pro</div>
-        <div class="cost">15$</div>
+        <div class="cost">SOON</div>
         <!-- <div class="github">
           <a href="https://github.com/mostafabriek/hotel/releases/tag/v1.0"
             ><img src="../assets/github_PNG15.png" alt="github"
           /></a>
         </div> -->
-        <div class="github">
+        <!-- <div class="github">
           <a href="https://github.com/mostafabriek/hotel/releases/tag/v1.0"
             ><img src="../assets/envatomarket.png" alt="github"
           /></a>
-        </div>
+        </div> -->
         <div class="github">
           <a href="https://github.com/mostafabriek/hotel/releases/tag/v1.0"
             ><img src="../assets/viewinmbsoft.png" alt="github"
